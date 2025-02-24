@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+  }
+  .custom-header {
+    max-width: 70%; /* 100% - 30% (izquierda) - 30% (derecha) */
+    margin: 0 auto; /* Centra el header horizontalmente */
+  }
+  /* Encabezado */
+  header {
+    background-color: #fff;
+  }
+  
+  header h1 {
+    font-size: 1rem; /* Tamaño ajustado para que coincida con los botones */
+    font-weight: 400;
+  }
+  
+  header nav a { /* Tamaño de los botones */
+    color: #333;
+    font-weight: 500;
+  }
+  
+  header nav a:hover {
+    color: #0070f3;
+  }
+  
+  /* Secciones */
+  section ul {
+    list-style: none;
+    
+  }
+  .custom-ul {
+    max-width: 70%; /* 100% - 30% (izquierda) - 30% (derecha) */
+    margin: 0 auto; /* Centra el header horizontalmente */
+  }
+  section ul li {
+    font-size: 1.1rem;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #fff;
+    font-size: 0.9rem;
+    color: #777;
+  }
